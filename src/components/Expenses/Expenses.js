@@ -1,5 +1,5 @@
 import './Expenses.css'
-import Card from './components/UI/Card'
+import Card from '../UI/Card'
 import ExpenseItem from "./ExpenseItem";
 function Expenses(props){
     return(
@@ -9,4 +9,4 @@ function Expenses(props){
         </Card>
     )
 }
-export default Expenses
+export default Expenses;
